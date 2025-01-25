@@ -51,7 +51,7 @@ const Download = () => {
   };
 
   return (
-    <a href="/resume-white-&-black.pdf" download className="relative z-10">
+    <a href="/CV-white.pdf" download className="relative z-10">
       <div
         ref={downloadContainer}
         onMouseEnter={lottieHover}

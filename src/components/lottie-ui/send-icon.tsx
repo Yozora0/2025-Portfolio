@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useRef } from "react";
 import { useTheme } from "next-themes";
+import { useEffect, useRef } from "react";
 import EyeAnimation from "../../lottie/eye/Eye.json";
 import EyeLightAnimation from "../../lottie/eye/EyeLight.json";
 
@@ -52,7 +52,7 @@ const SendIcon = () => {
 
   return (
     <a
-      href="/resume-white-&-black.pdf"
+      href="/CV-white.pdf"
       target="_blank"
       rel="noreferrer noopener"
       className="relative z-10"
