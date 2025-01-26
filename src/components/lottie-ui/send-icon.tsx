@@ -52,7 +52,7 @@ const SendIcon = () => {
 
   return (
     <a
-      href="/CV-white.pdf"
+      href="/CV2025.pdf"
       target="_blank"
       rel="noreferrer noopener"
       className="relative z-10"

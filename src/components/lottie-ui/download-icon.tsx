@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useRef } from "react";
 import { useTheme } from "next-themes";
+import { useEffect, useRef } from "react";
 import InboxDownAnimation from "../../lottie/inbox-down/InboxDown.json";
 import InboxDownLightAnimation from "../../lottie/inbox-down/InboxDownLight.json";
 
@@ -51,7 +51,7 @@ const Download = () => {
   };
 
   return (
-    <a href="/CV-white.pdf" download className="relative z-10">
+    <a href="/CV2025.pdf" download className="relative z-10">
       <div
         ref={downloadContainer}
         onMouseEnter={lottieHover}
